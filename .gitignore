@@ -58,5 +58,4 @@ typings/
 .env
 
 es6/.DS_Store
-es6/build
 es6/build/bundle.js
