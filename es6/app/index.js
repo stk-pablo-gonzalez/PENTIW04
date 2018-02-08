@@ -1,1 +1,9 @@
-console.log('Hello world! from Webpack (with an automatic update)!');
+import Person from './person';
+
+let person = new Person("Juan");
+
+console.log(person.getName());
+
+person.name = 'Pedro';
+
+console.log(person.getName());
