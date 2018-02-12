@@ -1,9 +1,12 @@
-import Person from './person';
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
 
-let person = new Person("Juan");
+class App extends Component {
+    render() {
+        return (
+            <div>React JS and JSX in action!</div>
+        )
+    }
+}
 
-console.log(person.getName());
-
-person.name = 'Pedro';
-
-console.log(person.getName());
+ReactDOM.render(<App />, document.getElementById('root'));
