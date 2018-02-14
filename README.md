@@ -3,11 +3,11 @@ Essentials in JavaScript ES6
 
 ## Overview
 This project contains the following demo:
-    * **Weather Report:** Provides current weather information using ES6, React and OpenWeatherMap.org data.
+  * **Weather Report:** Provides current weather information using ES6, React and OpenWeatherMap.org data.
 
 ## Requirements
 This project requires the following to be installed:
-    * NodeJS
+  * NodeJS
 
 ## Installation Instructions
 First install dependencies:
