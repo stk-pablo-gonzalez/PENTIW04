@@ -1,0 +1,38 @@
+{
+  "name": "pentiw04",
+  "version": "1.0.0",
+  "description": "Essentials in Javascript ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stk-pablo-gonzalez/PENTIW04.git"
+  },
+  "author": "Pablo Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stk-pablo-gonzalez/PENTIW04/issues"
+  },
+  "homepage": "https://github.com/stk-pablo-gonzalez/PENTIW04#readme",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
